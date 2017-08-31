@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AB66A0C1F478EFD006587A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A0B1F478EFD006587A3 /* AppDelegate.swift */; };
+		9AB66A0F1F478EFD006587A3 /* habhyglite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A0D1F478EFD006587A3 /* habhyglite.xcdatamodeld */; };
+		9AB66A111F478EFD006587A3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A101F478EFD006587A3 /* MasterViewController.swift */; };
+		9AB66A131F478EFD006587A3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A121F478EFD006587A3 /* DetailViewController.swift */; };
+		9AB66A161F478EFD006587A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB66A141F478EFD006587A3 /* Main.storyboard */; };
+		9AB66A181F478EFD006587A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB66A171F478EFD006587A3 /* Assets.xcassets */; };
+		9AB66A1B1F478EFD006587A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB66A191F478EFD006587A3 /* LaunchScreen.storyboard */; };
+		9AB66A261F478EFD006587A3 /* habhygliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A251F478EFD006587A3 /* habhygliteTests.swift */; };
+		9AB66A311F478EFD006587A3 /* habhygliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A301F478EFD006587A3 /* habhygliteUITests.swift */; };
+		9AB66A3F1F478FAC006587A3 /* HabHygService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A3E1F478FAC006587A3 /* HabHygService.swift */; };
+		9AB66A411F479143006587A3 /* StarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A401F479143006587A3 /* StarData.swift */; };
+		9AB66A421F479AF1006587A3 /* HabHygService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A3E1F478FAC006587A3 /* HabHygService.swift */; };
+		9AB66A441F479C98006587A3 /* StarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A401F479143006587A3 /* StarData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AB66A221F478EFD006587A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB66A001F478EFD006587A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AB66A071F478EFD006587A3;
+			remoteInfo = habhyglite;
+		};
+		9AB66A2D1F478EFD006587A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB66A001F478EFD006587A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AB66A071F478EFD006587A3;
+			remoteInfo = habhyglite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AB66A081F478EFD006587A3 /* habhyglite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = habhyglite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB66A0B1F478EFD006587A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AB66A0E1F478EFD006587A3 /* habhyglite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = habhyglite.xcdatamodel; sourceTree = "<group>"; };
+		9AB66A101F478EFD006587A3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9AB66A121F478EFD006587A3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9AB66A151F478EFD006587A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AB66A171F478EFD006587A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AB66A1A1F478EFD006587A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AB66A1C1F478EFD006587A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB66A211F478EFD006587A3 /* habhygliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = habhygliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB66A251F478EFD006587A3 /* habhygliteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habhygliteTests.swift; sourceTree = "<group>"; };
+		9AB66A271F478EFD006587A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB66A2C1F478EFD006587A3 /* habhygliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = habhygliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB66A301F478EFD006587A3 /* habhygliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habhygliteUITests.swift; sourceTree = "<group>"; };
+		9AB66A321F478EFD006587A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB66A3E1F478FAC006587A3 /* HabHygService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabHygService.swift; sourceTree = "<group>"; };
+		9AB66A401F479143006587A3 /* StarData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AB66A051F478EFD006587A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB66A1E1F478EFD006587A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB66A291F478EFD006587A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AB669FF1F478EFD006587A3 = {
+			isa = PBXGroup;
+			children = (
+				9AB66A0A1F478EFD006587A3 /* habhyglite */,
+				9AB66A241F478EFD006587A3 /* habhygliteTests */,
+				9AB66A2F1F478EFD006587A3 /* habhygliteUITests */,
+				9AB66A091F478EFD006587A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AB66A091F478EFD006587A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB66A081F478EFD006587A3 /* habhyglite.app */,
+				9AB66A211F478EFD006587A3 /* habhygliteTests.xctest */,
+				9AB66A2C1F478EFD006587A3 /* habhygliteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB66A0A1F478EFD006587A3 /* habhyglite */ = {
+			isa = PBXGroup;
+			children = (
+				9AB66A0B1F478EFD006587A3 /* AppDelegate.swift */,
+				9AB66A101F478EFD006587A3 /* MasterViewController.swift */,
+				9AB66A121F478EFD006587A3 /* DetailViewController.swift */,
+				9AB66A141F478EFD006587A3 /* Main.storyboard */,
+				9AB66A171F478EFD006587A3 /* Assets.xcassets */,
+				9AB66A191F478EFD006587A3 /* LaunchScreen.storyboard */,
+				9AB66A1C1F478EFD006587A3 /* Info.plist */,
+				9AB66A0D1F478EFD006587A3 /* habhyglite.xcdatamodeld */,
+				9AB66A3E1F478FAC006587A3 /* HabHygService.swift */,
+				9AB66A401F479143006587A3 /* StarData.swift */,
+			);
+			path = habhyglite;
+			sourceTree = "<group>";
+		};
+		9AB66A241F478EFD006587A3 /* habhygliteTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AB66A251F478EFD006587A3 /* habhygliteTests.swift */,
+				9AB66A271F478EFD006587A3 /* Info.plist */,
+			);
+			path = habhygliteTests;
+			sourceTree = "<group>";
+		};
+		9AB66A2F1F478EFD006587A3 /* habhygliteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AB66A301F478EFD006587A3 /* habhygliteUITests.swift */,
+				9AB66A321F478EFD006587A3 /* Info.plist */,
+			);
+			path = habhygliteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AB66A071F478EFD006587A3 /* habhyglite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB66A351F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhyglite" */;
+			buildPhases = (
+				9AB66A041F478EFD006587A3 /* Sources */,
+				9AB66A051F478EFD006587A3 /* Frameworks */,
+				9AB66A061F478EFD006587A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = habhyglite;
+			productName = habhyglite;
+			productReference = 9AB66A081F478EFD006587A3 /* habhyglite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AB66A201F478EFD006587A3 /* habhygliteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB66A381F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhygliteTests" */;
+			buildPhases = (
+				9AB66A1D1F478EFD006587A3 /* Sources */,
+				9AB66A1E1F478EFD006587A3 /* Frameworks */,
+				9AB66A1F1F478EFD006587A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AB66A231F478EFD006587A3 /* PBXTargetDependency */,
+			);
+			name = habhygliteTests;
+			productName = habhygliteTests;
+			productReference = 9AB66A211F478EFD006587A3 /* habhygliteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AB66A2B1F478EFD006587A3 /* habhygliteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB66A3B1F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhygliteUITests" */;
+			buildPhases = (
+				9AB66A281F478EFD006587A3 /* Sources */,
+				9AB66A291F478EFD006587A3 /* Frameworks */,
+				9AB66A2A1F478EFD006587A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AB66A2E1F478EFD006587A3 /* PBXTargetDependency */,
+			);
+			name = habhygliteUITests;
+			productName = habhygliteUITests;
+			productReference = 9AB66A2C1F478EFD006587A3 /* habhygliteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AB66A001F478EFD006587A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Brian Lanham";
+				TargetAttributes = {
+					9AB66A071F478EFD006587A3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QPVNYM3WB7;
+						ProvisioningStyle = Automatic;
+					};
+					9AB66A201F478EFD006587A3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QPVNYM3WB7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AB66A071F478EFD006587A3;
+					};
+					9AB66A2B1F478EFD006587A3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QPVNYM3WB7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AB66A071F478EFD006587A3;
+					};
+				};
+			};
+			buildConfigurationList = 9AB66A031F478EFD006587A3 /* Build configuration list for PBXProject "habhyglite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AB669FF1F478EFD006587A3;
+			productRefGroup = 9AB66A091F478EFD006587A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AB66A071F478EFD006587A3 /* habhyglite */,
+				9AB66A201F478EFD006587A3 /* habhygliteTests */,
+				9AB66A2B1F478EFD006587A3 /* habhygliteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AB66A061F478EFD006587A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB66A1B1F478EFD006587A3 /* LaunchScreen.storyboard in Resources */,
+				9AB66A181F478EFD006587A3 /* Assets.xcassets in Resources */,
+				9AB66A161F478EFD006587A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB66A1F1F478EFD006587A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB66A2A1F478EFD006587A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AB66A041F478EFD006587A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB66A0F1F478EFD006587A3 /* habhyglite.xcdatamodeld in Sources */,
+				9AB66A0C1F478EFD006587A3 /* AppDelegate.swift in Sources */,
+				9AB66A111F478EFD006587A3 /* MasterViewController.swift in Sources */,
+				9AB66A3F1F478FAC006587A3 /* HabHygService.swift in Sources */,
+				9AB66A131F478EFD006587A3 /* DetailViewController.swift in Sources */,
+				9AB66A411F479143006587A3 /* StarData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB66A1D1F478EFD006587A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB66A421F479AF1006587A3 /* HabHygService.swift in Sources */,
+				9AB66A261F478EFD006587A3 /* habhygliteTests.swift in Sources */,
+				9AB66A441F479C98006587A3 /* StarData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB66A281F478EFD006587A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB66A311F478EFD006587A3 /* habhygliteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AB66A231F478EFD006587A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AB66A071F478EFD006587A3 /* habhyglite */;
+			targetProxy = 9AB66A221F478EFD006587A3 /* PBXContainerItemProxy */;
+		};
+		9AB66A2E1F478EFD006587A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AB66A071F478EFD006587A3 /* habhyglite */;
+			targetProxy = 9AB66A2D1F478EFD006587A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AB66A141F478EFD006587A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB66A151F478EFD006587A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AB66A191F478EFD006587A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB66A1A1F478EFD006587A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AB66A331F478EFD006587A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AB66A341F478EFD006587A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AB66A361F478EFD006587A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QPVNYM3WB7;
+				INFOPLIST_FILE = habhyglite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesailor.habhyglite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9AB66A371F478EFD006587A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QPVNYM3WB7;
+				INFOPLIST_FILE = habhyglite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesailor.habhyglite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9AB66A391F478EFD006587A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QPVNYM3WB7;
+				INFOPLIST_FILE = habhygliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesailor.habhygliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/habhyglite.app/habhyglite";
+			};
+			name = Debug;
+		};
+		9AB66A3A1F478EFD006587A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QPVNYM3WB7;
+				INFOPLIST_FILE = habhygliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesailor.habhygliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/habhyglite.app/habhyglite";
+			};
+			name = Release;
+		};
+		9AB66A3C1F478EFD006587A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QPVNYM3WB7;
+				INFOPLIST_FILE = habhygliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesailor.habhygliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = habhyglite;
+			};
+			name = Debug;
+		};
+		9AB66A3D1F478EFD006587A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QPVNYM3WB7;
+				INFOPLIST_FILE = habhygliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesailor.habhygliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = habhyglite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AB66A031F478EFD006587A3 /* Build configuration list for PBXProject "habhyglite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB66A331F478EFD006587A3 /* Debug */,
+				9AB66A341F478EFD006587A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB66A351F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhyglite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB66A361F478EFD006587A3 /* Debug */,
+				9AB66A371F478EFD006587A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AB66A381F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhygliteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB66A391F478EFD006587A3 /* Debug */,
+				9AB66A3A1F478EFD006587A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AB66A3B1F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhygliteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB66A3C1F478EFD006587A3 /* Debug */,
+				9AB66A3D1F478EFD006587A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AB66A0D1F478EFD006587A3 /* habhyglite.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AB66A0E1F478EFD006587A3 /* habhyglite.xcdatamodel */,
+			);
+			currentVersion = 9AB66A0E1F478EFD006587A3 /* habhyglite.xcdatamodel */;
+			path = habhyglite.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9AB66A001F478EFD006587A3 /* Project object */;
+}
