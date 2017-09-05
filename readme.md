@@ -96,16 +96,13 @@ hipster ipsum
 ```
 
 ### 2. Adding an Activity Indicator
-a;lsdkjf;aslkdjfas;ldkj
+Typewriter copper mug roof party before they sold out waistcoat austin, ramps 3 wolf moon viral health goth shabby chic. Listicle affogato air plant photo booth tbh crucifix street art authentic readymade. Air plant brooklyn bitters poke pork belly. Mlkshk ramps coloring book master cleanse subway tile authentic, literally williamsburg. Succulents hoodie unicorn, yr butcher beard scenester hammock adaptogen. Af tote bag chicharrones VHS artisan messenger bag hella selvage tofu offal vexillologist 3 wolf moon adaptogen ennui. Beard williamsburg vexillologist VHS. Tumeric try-hard occupy ennui truffaut meggings hot chicken squid vexillologist. Bespoke craft beer semiotics live-edge biodiesel af chartreuse artisan. Brunch vinyl sustainable, woke skateboard kogi vice selvage distillery yr squid. Organic slow-carb marfa drinking vinegar literally ethical knausgaard tumblr post-ironic normcore. Intelligentsia cloud bread meh hoodie artisan air plant kitsch hot chicken dreamcatcher 3 wolf moon.
 
 ### 3. Modifying the Detail View
-a;slkdjf;asdkljfas;dkljf
+Stumptown fashion axe health goth art party brooklyn succulents, hot chicken cronut man bun pour-over hoodie listicle lo-fi. Shaman XOXO etsy bicycle rights photo booth tumblr meggings. Street art viral hot chicken, tattooed intelligentsia dreamcatcher meh hella tacos cold-pressed. Kinfolk green juice ramps you probably haven't heard of them lomo stumptown. Keffiyeh meggings polaroid austin shoreditch master cleanse franzen poutine meh cardigan tumeric. Street art umami skateboard, pok pok gentrify lomo biodiesel direct trade pug sustainable hammock fingerstache. Succulents thundercats synth unicorn, selfies palo santo edison bulb. Bushwick plaid bespoke, raw denim enamel pin literally shaman. Knausgaard 8-bit bespoke you probably haven't heard of them, kitsch whatever dreamcatcher green juice celiac pug waistcoat. Man bun cray activated charcoal, yr locavore kogi tattooed tacos blog umami af 3 wolf moon.
 
-### 4. Graphics
-a;slkdjfa;slkdjfas
-
-### 5. Unit Testing
-as;ldkjf;aslkdjfals;dkfa
+### 4. Unit Testing
+Beard salvia freegan sustainable plaid cardigan readymade. Ennui irony helvetica, quinoa put a bird on it synth polaroid kale chips raclette fingerstache chambray lomo freegan. Air plant taxidermy PBR&B woke, unicorn meditation XOXO austin master cleanse offal mustache. +1 cray celiac fanny pack before they sold out, ramps salvia taiyaki. Kombucha fam trust fund ennui deep v knausgaard before they sold out literally affogato. Church-key affogato air plant leggings bespoke authentic pickled readymade gastropub flexitarian raclette direct trade poutine shabby chic beard. Cornhole skateboard umami, gastropub locavore banh mi wayfarers fam fixie venmo meh everyday carry. Put a bird on it vegan schlitz master cleanse. Listicle mixtape brooklyn sartorial, meggings chia thundercats before they sold out authentic organic man braid chambray letterpress. 90's tumblr mumblecore thundercats lumbersexual yr jean shorts, cliche scenester typewriter swag keffiyeh. Hexagon try-hard post-ironic kogi pabst. Semiotics umami venmo street art. Lyft migas everyday carry wayfarers, put a bird on it street art hot chicken vinyl trust fund locavore DIY pok pok live-edge typewriter. Vegan air plant normcore YOLO. Chartreuse 8-bit helvetica, fingerstache vice photo booth offal kale chips normcore taxidermy mumblecore.
 
 ## Helpful Links
 * \#pragma mark in Swift - https://stackoverflow.com/questions/24017316/pragma-mark-in-swift
