@@ -10,21 +10,24 @@ import UIKit
 import CoreData
 
 class MasterViewController: UITableViewController, NSFetchedResultsControllerDelegate {
+    @IBOutlet weak var busySignal: UIActivityIndicatorView!
 
     var detailViewController: DetailViewController? = nil
+    @IBOutlet weak var busyView: UIView!
     var managedObjectContext: NSManagedObjectContext? = nil
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.busyView.isHidden = true
 
         self.load()
         
         // Do any additional setup after loading the view, typically from a nib.
         navigationItem.leftBarButtonItem = editButtonItem
 
-        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(insertNewObject(_:)))
-        navigationItem.rightBarButtonItem = addButton
+//        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(insertNewObject(_:)))
+//        navigationItem.rightBarButtonItem = addButton
         if let split = splitViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
@@ -62,9 +65,10 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     // MARK: - Custom
     
     var stellarData: [StarData]?
-    var isLoading: Bool = true;
+    var isLoading: Bool = true
     
     func load() {
+        self.showBusy()
         let request = NSMutableURLRequest(url: NSURL(string: "http://dmapi.loticfactor.com/api/HabHyg_Lite/")! as URL)
         let session = URLSession.shared
         request.httpMethod = "GET"
@@ -82,6 +86,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
                 self.stellarData = [StarData]()
                 self.stellarData?.append(contentsOf: self.parseJson(from: data!))
                 self.title = String("\(self.stellarData?.count ?? 0) Stars")
+                self.editButtonItem.isEnabled = false
                 //                for star:StarData in parsedStars {
 //                    print (star.ProperName)
 //                    self.stellarData?.append(star)
@@ -97,7 +102,12 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
 //                for sd:StarData in self.stellarData! {
 //                    print(sd.ProperName)
 //                }
-                self.tableView?.reloadData()
+//                func refreshUI() { DispatchQueue.main.async { self.tableView!.reloadData() } }
+                self.tableView!.reloadData()
+                self.hideBusy()
+//                if (self.tableView != nil) {
+//                    self.tableView!.reloadData()
+//                }
             }
         })
         
@@ -117,7 +127,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
                         star.id = jsonStar["id"] as! Int
                         star.ProperName = jsonStar["ProperName"] as! String
                         star.CommonName = jsonStar["CommonName"] as! String
-                        star.x = jsonStar["x"] as! Float
+                        star.x = (jsonStar["x"] as? Float)!
                         star.y = jsonStar["y"] as! Float
                         star.z = jsonStar["z"] as! Float
                         star.DistanceInParsecs = jsonStar["DistanceInParsecs"] as! Float
@@ -132,6 +142,17 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
             print(error)
         }
         return stars
+    }
+    
+    func showBusy() {
+        self.busySignal.startAnimating()
+        self.busyView.isHidden = false
+    }
+    
+    func hideBusy() {
+        self.busyView.removeFromSuperview()
+        self.busyView.isHidden = true
+        self.busySignal.stopAnimating()
     }
 
     // MARK: - Segues
