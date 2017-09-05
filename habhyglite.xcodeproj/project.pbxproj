@@ -20,6 +20,7 @@
 		9AB66A411F479143006587A3 /* StarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A401F479143006587A3 /* StarData.swift */; };
 		9AB66A421F479AF1006587A3 /* HabHygService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A3E1F478FAC006587A3 /* HabHygService.swift */; };
 		9AB66A441F479C98006587A3 /* StarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB66A401F479143006587A3 /* StarData.swift */; };
+		9AE140021F5EE790004A2CA0 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 9AE140011F5EE790004A2CA0 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9AB66A321F478EFD006587A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB66A3E1F478FAC006587A3 /* HabHygService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabHygService.swift; sourceTree = "<group>"; };
 		9AB66A401F479143006587A3 /* StarData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarData.swift; sourceTree = "<group>"; };
+		9AE140011F5EE790004A2CA0 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		9AB669FF1F478EFD006587A3 = {
 			isa = PBXGroup;
 			children = (
+				9AE140011F5EE790004A2CA0 /* readme.md */,
 				9AB66A0A1F478EFD006587A3 /* habhyglite */,
 				9AB66A241F478EFD006587A3 /* habhygliteTests */,
 				9AB66A2F1F478EFD006587A3 /* habhygliteUITests */,
@@ -280,6 +283,7 @@
 				9AB66A0C1F478EFD006587A3 /* AppDelegate.swift in Sources */,
 				9AB66A111F478EFD006587A3 /* MasterViewController.swift in Sources */,
 				9AB66A3F1F478FAC006587A3 /* HabHygService.swift in Sources */,
+				9AE140021F5EE790004A2CA0 /* readme.md in Sources */,
 				9AB66A131F478EFD006587A3 /* DetailViewController.swift in Sources */,
 				9AB66A411F479143006587A3 /* StarData.swift in Sources */,
 			);
@@ -534,6 +538,7 @@
 				9AB66A371F478EFD006587A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB66A381F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhygliteTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +547,7 @@
 				9AB66A3A1F478EFD006587A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB66A3B1F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhygliteUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +556,7 @@
 				9AB66A3D1F478EFD006587A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
