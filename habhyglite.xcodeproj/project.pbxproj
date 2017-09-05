@@ -534,6 +534,7 @@
 				9AB66A371F478EFD006587A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB66A381F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhygliteTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +543,7 @@
 				9AB66A3A1F478EFD006587A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB66A3B1F478EFD006587A3 /* Build configuration list for PBXNativeTarget "habhygliteUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +552,7 @@
 				9AB66A3D1F478EFD006587A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
